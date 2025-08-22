@@ -1,3 +1,4 @@
+
 body {
     font-family: Roboto, sans-serif;
     font-weight: normal;
@@ -5,10 +6,22 @@ body {
     line-height: 24px;
     letter-spacing: 2%;
     color: #434455;
+    background-color: #ffffff;
 }
 
 .logo {
     height: 24px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo > span {
+    color:#2E2F42;
 }
 
 ul,
@@ -41,49 +54,60 @@ nav a:focus {
 address {
     font-family: Roboto;
     font-weight: 400;
-    font-size: 12px;
-    letter-spacing: 4%;
-    line-height: 14px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #434455;
 }
 
 address a:hover {
-    color: #4d5ae5;
+    color:  #404bbf;
 }
 
 .header-section {
-background-color: #2e2f42;
-color: #ffffff;
+    background-color: #2e2f42;
+    color: #ffffff;
 }
 
-button {
+.header-section > h1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-section > button {
     font-family: Roboto;
     font-weight: medium;
     font-size: 16px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     line-height: 24px;
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
 }
 
-button:hover {
+.header-section > button:hover {
     background-color: #404bbf;
 }
 
-h1 {
+.feature > p {
     font-family: Roboto;
-    font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    color: #434455;
 }
 
-h2 {
+.team-cards > h2 {
     font-family: Roboto;
     font-weight: bold;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -91,12 +115,11 @@ h3 {
     font-family: Roboto;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
 .team-cards {
-
     background-color: #f4f4fd;
 }
 
@@ -106,6 +129,21 @@ h3 {
     background-color: #2e2f42;
     color: #f4f4fd;
 }
-.footer a {
+
+
+.footer p {
+    letter-spacing: 0.2em;
+}
+footer.logo {
+    height: 24px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo > span {
     color: #f4f4fd;
 }
