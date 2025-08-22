@@ -1,4 +1,3 @@
-
 body {
     font-family: Roboto, sans-serif;
     font-weight: normal;
@@ -17,11 +16,11 @@ body {
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 
 .logo > span {
-    color:#2E2F42;
+    color: #2e2f42;
 }
 
 ul,
@@ -37,22 +36,23 @@ a {
 nav {
     font-family: Roboto;
     font-weight: 500;
-    font-size: 12px;
-    letter-spacing: 4%;
-    line-height: 14px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #2e2f42;
 }
 nav a:hover {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 nav a:focus {
-    color: #4d5ae5;
+    color: #404bbf;
     text-decoration: underline;
 }
 
-address {
+.address {
     font-family: Roboto;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -60,8 +60,16 @@ address {
     color: #434455;
 }
 
-address a:hover {
-    color:  #404bbf;
+.address a {
+    color: #434455;
+}
+
+.address a:hover {
+    color: #404bbf;
+}
+
+.address a:focus {
+    color: #404bbf;
 }
 
 .header-section {
@@ -77,11 +85,12 @@ address a:hover {
     line-height: 60px;
     text-align: center;
     color: #ffffff;
+    line-height: 1.07;
 }
 
 .header-section > button {
-    font-family: Roboto;
-    font-weight: medium;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
     line-height: 24px;
@@ -116,6 +125,9 @@ h3 {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize; 
     color: #2e2f42;
 }
 
@@ -124,25 +136,21 @@ h3 {
 }
 
 .footer {
-    width: 1440px;
-    height: 312px;
     background-color: #2e2f42;
     color: #f4f4fd;
 }
-
 
 .footer p {
     letter-spacing: 0.2em;
 }
 footer.logo {
-    height: 24px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 .logo > span {
     color: #f4f4fd;
