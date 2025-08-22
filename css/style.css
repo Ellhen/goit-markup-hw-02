@@ -3,13 +3,12 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
     background-color: #ffffff;
 }
 
 .logo {
-    height: 24px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -19,7 +18,7 @@ body {
     color: #4d5ae5;
 }
 
-.logo > span {
+.logo .nav-logo {
     color: #2e2f42;
 }
 
@@ -72,12 +71,12 @@ nav a:focus {
     color: #404bbf;
 }
 
-.header-section {
+.main-section {
     background-color: #2e2f42;
     color: #ffffff;
 }
 
-.header-section > h1 {
+.main-section .main-title {
     font-family: Roboto;
     font-weight: 700;
     font-size: 56px;
@@ -88,7 +87,7 @@ nav a:focus {
     line-height: 1.07;
 }
 
-.header-section > button {
+.main-section .button {
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -99,7 +98,11 @@ nav a:focus {
     cursor: pointer;
 }
 
-.header-section > button:hover {
+.main-section .button:hover {
+    background-color: #404bbf;
+}
+
+.main-section .button:focus {
     background-color: #404bbf;
 }
 
@@ -127,7 +130,7 @@ h3 {
     letter-spacing: 0.02em;
     line-height: 1.11;
     text-align: center;
-    text-transform: capitalize; 
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -135,13 +138,42 @@ h3 {
     background-color: #f4f4fd;
 }
 
+.portfolio {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    line-height: 40px;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.project-cards > h3 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.project-cards > p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 .footer {
     background-color: #2e2f42;
     color: #f4f4fd;
 }
 
-.footer p {
-    letter-spacing: 0.2em;
+.footer.text {
+    letter-spacing: 0.02em;
 }
 footer.logo {
     font-family: Raleway, sans-serif;
@@ -152,6 +184,6 @@ footer.logo {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo > span {
+.logo .footer-logo {
     color: #f4f4fd;
 }
