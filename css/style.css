@@ -32,6 +32,10 @@ a {
     color: #2e2f42;
 }
 
+.menu:first-child()>a {
+    color: #2e2f42;
+}
+
 .menu .item {
     font-family: Roboto;
     font-weight: 500;
