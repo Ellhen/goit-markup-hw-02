@@ -59,7 +59,7 @@ nav a:focus {
     color: #434455;
 }
 
-.address a {
+.limk {
     color: #434455;
 }
 
@@ -116,7 +116,7 @@ nav a:focus {
     font-family: Roboto;
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 0.125em;
+    letter-spacing: 0.02em;
     line-height: 1.11;
     text-transform: capitalize;
     text-align: center;
