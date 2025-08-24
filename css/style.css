@@ -63,10 +63,7 @@ nav a:focus {
     color: #434455;
 }
 
-.address a:hover {
-    color: #404bbf;
-}
-
+.address a:hover,
 .address a:focus {
     color: #404bbf;
 }
@@ -76,7 +73,7 @@ nav a:focus {
     color: #ffffff;
 }
 
-.main-section .main-title {
+.main-title {
     font-family: Roboto;
     font-weight: 700;
     font-size: 56px;
@@ -115,11 +112,14 @@ nav a:focus {
     color: #434455;
 }
 
-.team-cards > h2 {
+.title {
     font-family: Roboto;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.125em;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
     color: #2e2f42;
 }
 
@@ -132,6 +132,10 @@ nav a:focus {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+}
+
+.team-cards .item {
+    background-color: #ffffff;
 }
 
 .team-cards {
