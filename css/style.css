@@ -42,12 +42,17 @@ a {
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
-nav a:hover {
+nav a:hover,
+.menu .link:hover {
     color: #404bbf;
 }
 
-nav a:focus {
+nav a:focus,
+.menu .link:hover {
     color: #404bbf;
+}
+
+.menu > li:first-child > .link:active {
     text-decoration: underline;
 }
 
