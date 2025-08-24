@@ -106,7 +106,7 @@ nav a:focus {
     background-color: #404bbf;
 }
 
-.feature > p {
+.text-description {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
@@ -123,12 +123,12 @@ nav a:focus {
     color: #2e2f42;
 }
 
-h3 {
+.section-title {
     font-family: Roboto;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
-    line-height: 1.11;
+    line-height: 1.2;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
@@ -146,7 +146,6 @@ h3 {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    line-height: 40px;
     text-align: center;
     color: #2e2f42;
 }
@@ -172,10 +171,10 @@ h3 {
     color: #f4f4fd;
 }
 
-.footer.text {
+.footer .text {
     letter-spacing: 0.02em;
 }
-footer.logo {
+.footer .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -184,6 +183,7 @@ footer.logo {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
 .logo .footer-logo {
     color: #f4f4fd;
 }
