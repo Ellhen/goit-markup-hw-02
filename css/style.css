@@ -29,10 +29,9 @@ ol {
 
 a {
     text-decoration: none;
-    color: #2e2f42;
 }
 
-.menu:first-child()>a {
+.menu .link {
     color: #2e2f42;
 }
 
@@ -42,7 +41,6 @@ a {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    color: #2e2f42;
 }
 nav a:hover {
     color: #404bbf;
